@@ -1,0 +1,1 @@
+# Outlook-for-Mac-Signatures
