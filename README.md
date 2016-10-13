@@ -25,7 +25,7 @@ The trick here is the `" & campusAddress & "` section
 The script requires the device be bound to Active Directory to work. It leverages DSCL to pull the variables from relevant attributes in the Directory Service.
 Your Environment will likely be very different from mine, during development of the script, I found piping the output of dscl to a txt file very helpful for working out what attributes I needed.
 e.g. `dscl "/Active Directory/<DOMAIN>/All Domains" -read /Users/<username> >> ~/Desktop/dscldump.txt"`
-Where <DOMAIN> is your domain, and <username> is a valid username in your Directory Service.
+Where `<DOMAIN>` is your domain, and `<username>` is a valid username in your Directory Service.
 
 
 ## Packaging
